@@ -1,11 +1,35 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS DOM EVENTS</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
+    <h1>Dom er ajke special events</h1>
+    <!-- console by onclick -->
+    <button onclick="console.log('Your click the button')">Click me</button>
+    <button onclick="console.log('Submitted')">Submit</button>
+    <button onclick="console.log(100)">another button</button> <br>
+    <!-- option 1 -->
+    <button id="red" onclick="document.body.style.backgroundColor = 'red'">Make Background red</button>
+    <!-- option 2 -->
+    <button id="blue" onclick="makeBlue()">Make Background blue</button>
+    <!-- option 3  -->
+    <button id="green">Make Background green</button>
+    <!-- option 4 -->
+    <button id="yellow">Make Background yellow</button>
+    <!-- option 5 addEventListener  -->
+    <button id="purple">Make background purple</button>
+    <!-- option 6 -->
+    <button id="gold">Make background gold</button>
     
+
+
+    <script src="js/events.js"></script>
 </body>
+
 </html>
