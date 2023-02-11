@@ -1,3 +1,5 @@
+
+
 /// creating comment box
 
 // step 1: add event listener to the post button
@@ -30,3 +32,31 @@ document.getElementById('btn-post').addEventListener('click', function commentBo
     textarea.value = '';
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

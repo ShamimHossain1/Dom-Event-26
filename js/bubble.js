@@ -1,4 +1,5 @@
 
+
 // Bubble 1
 
 document.getElementById('item-2').addEventListener('click', function (event) {
@@ -9,15 +10,15 @@ document.getElementById('item-2').addEventListener('click', function (event) {
 
 document.getElementById('item-2').addEventListener('click', function (event) {
     console.log('Item-2 second clicked');
-   
+
 })
 document.getElementById('item-2').addEventListener('click', function (event) {
     console.log('Item-2 third clicked');
-    
+
 })
 document.getElementById('item-2').addEventListener('click', function (event) {
     console.log('Item-2 fourth clicked');
-    
+
 })
 
 // bubble 2
@@ -37,3 +38,31 @@ document.getElementById('list-container').addEventListener('click', function () 
 document.getElementById('body').addEventListener('click', function () {
     console.log('body of the html clicked');
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

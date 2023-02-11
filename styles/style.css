@@ -1,4 +1,4 @@
-button{
+button {
     margin: 10px;
     padding: 10px;
     font-size: large;
@@ -6,26 +6,32 @@ button{
     border-color: aliceblue;
 }
 
-#red{
+#red {
     background-color: red;
 }
-#blue{
-    background-color:blue;
+
+#blue {
+    background-color: blue;
 }
-#green{
+
+#green {
     background-color: green;
 }
-#yellow{
+
+#yellow {
     background-color: yellow;
 }
-.event-summar{
+
+.event-summar {
     text-align: center;
 }
+
 #input-text {
     font-size: 23px;
     font-weight: bold;
     text-align: center;
 }
-#new-comment{
+
+#new-comment {
     font-size: 23px;
 }

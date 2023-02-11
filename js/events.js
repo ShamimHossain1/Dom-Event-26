@@ -1,3 +1,5 @@
+
+
 console.log("this is separate js file");
 
 // onclick style
@@ -7,7 +9,7 @@ console.log("this is separate js file");
 
 // method 2
 // important: we will use
-function makeBlue (){
+function makeBlue() {
     document.body.style.backgroundColor = 'blue';
 }
 
@@ -15,30 +17,46 @@ function makeBlue (){
 
 const greenBtn = document.getElementById('green');
 greenBtn.onclick = makeGreen;
-function makeGreen(){
-    document.body.style.backgroundColor='green';
+function makeGreen() {
+    document.body.style.backgroundColor = 'green';
 }
 
 // method 4
 
 const makeYellow = document.getElementById('yellow');
-makeYellow.onclick= function makeYellow(){
-    document.body.style.backgroundColor=('yellow');
+makeYellow.onclick = function makeYellow() {
+    document.body.style.backgroundColor = ('yellow');
 }
 
 // method 5 addeventlistner
 
 
 const makePurple = document.getElementById('purple');
-makePurple.addEventListener('click',makepurple )
-function makepurple(){
-    document.body.style.backgroundColor=('purple');
+makePurple.addEventListener('click', makepurple)
+function makepurple() {
+    document.body.style.backgroundColor = ('purple');
 }
 
 // method 6
 // important: will use sometimes
 
-document.getElementById('gold').addEventListener('click', function makeGold(){
-    document.body.style.backgroundColor=('gold');
+document.getElementById('gold').addEventListener('click', function makeGold() {
+    document.body.style.backgroundColor = ('gold');
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
