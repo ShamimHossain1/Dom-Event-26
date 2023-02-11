@@ -1,4 +1,4 @@
-button {
+button{
     margin: 10px;
     padding: 10px;
     font-size: large;
@@ -17,4 +17,12 @@ button {
 }
 #yellow{
     background-color: yellow;
+}
+.event-summar{
+    text-align: center;
+}
+#input-text {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
 }
